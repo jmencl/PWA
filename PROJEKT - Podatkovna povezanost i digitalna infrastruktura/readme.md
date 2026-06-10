@@ -11,7 +11,7 @@ U slučaju pokretanja web aplikacije pripaziti na sljedeće:
 Provjeriti da se baza spaja na ispravan port.
 Zbog već prijašnje zauzetosti porta 3306, za razvijanje projekta korišten je port 3307.
 Prije predaje kod u datoteci connect.php koji je glasio ovako:
-<?php
+"<?php
 header('Content-Type: text/html; charset=utf-8');
 
 $servername = "localhost";
@@ -65,4 +65,4 @@ if (!$dbc) {
 }
 
 mysqli_set_charset($dbc, "utf8mb4");
-?>
+?>"
